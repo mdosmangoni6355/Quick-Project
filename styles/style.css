@@ -1,1 +1,67 @@
-/* This is a styleset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+}
+#navbar ul li{
+    margin-right: 30px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 18px;
+}
+#hero{
+    text-align: center;
+    margin: 100px 0;
+    padding: 0 50px;
+}
+#hero h1{
+    font-size: 72px;
+    margin-bottom: 20px;
+    color: #3B506C;
+}
+#hero h1 span{
+    color: #007bff;
+}
+#hero p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#hero img{
+    width: 50%;
+    max-width: 55%;
+    height: auto;
+}
+#about{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    padding: 0 50px;
+    margin: 100px 0;
+}
+#about .left{
+    text-align: right;
+}
+#about .left h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #f96e03;
+}
+#about .right h2{
+    color: #3B506C;
+    font-size: 35px;
+}
