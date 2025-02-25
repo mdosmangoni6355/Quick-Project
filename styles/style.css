@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/******** Navbar Style ********/
 #navbar{
     display: flex;
     justify-content: space-between;
@@ -23,6 +24,11 @@
     font-weight: 600;
     font-size: 18px;
 }
+#navbar ul li a:hover{
+    color: #007bff;
+}
+
+/******** Hero Section ********/
 #hero{
     text-align: center;
     margin: 100px 0;
@@ -45,6 +51,8 @@
     max-width: 55%;
     height: auto;
 }
+
+/******** About Section ********/
 #about{
     display: flex;
     justify-content: center;
@@ -64,4 +72,73 @@
 #about .right h2{
     color: #3B506C;
     font-size: 35px;
+}
+
+/******** Services Section ********/
+#services{
+    text-align: center;
+    padding: 0 50px;
+    margin: 100px 0;
+}
+#services h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #3B506C;
+}
+#services .cards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+#services .service{
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+}
+#services .service img{
+    height: 250px;
+    margin-bottom: 20px;
+}
+#services .service h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #3B506C;
+}
+#services .service p{
+    font-size: 18px;
+    color: #666;
+}
+#services .service:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+/******** Footer Section ********/
+#footer{
+    text-align: center;
+    padding: 50px 0;
+    background: #2a8df0;
+    color: #fff;
+}
+#footer .footer-links{
+    margin-bottom: 20px;
+}
+#footer .footer-links a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+#footer p{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:#fff;
+}
+#footer .social-media{
+    margin-top: 20px;
+}
+#footer .social-media img{
+    width: 40px;
+    margin: 0 10px;
+    transition: 0.3s;
 }
